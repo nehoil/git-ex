@@ -4,3 +4,11 @@
     right: 10px;
     cursor: pointer;
 }
+
+header {
+    margin-top: 80px;
+}
+ 
+.selected-txt {
+    color: #30c56e;
+}

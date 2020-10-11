@@ -2,12 +2,12 @@
 
 init()
 
-function init(){
+function init() {
     renderProjs();
     renderSendBtn();
 }
 
-function renderSendBtn(){
+function renderSendBtn() {
     var email = $('.email').val()
     var subject = $('.subject').val()
     var msg = $('.message').val()
@@ -17,14 +17,14 @@ function renderSendBtn(){
     $('.form-btn').html(strHtml)
 }
 
-function onSendMsg(){
+function onSendMsg() {
     var email = $('.email').val()
     var subject = $('.subject').val()
     var msg = $('.message').val()
-    window.open(`https://mail.google.com/mail/?view=cm&fs=1&to=neho12@gmail.com&su=${subject}&body=${msg}from${email}`); 
+    window.open(`https://mail.google.com/mail/?view=cm&fs=1&to=neho12@gmail.com&su=${subject}&body=${msg}from${email}`);
 }
 
-function renderProjs(){
+function renderProjs() {
     var projs = getProjs();
     var strHtmls = ``
     projs.forEach(function (proj) {
@@ -36,7 +36,7 @@ function renderProjs(){
               <i class="fa fa-plus fa-3x"></i>
             </div>
           </div>
-          <img class="img-fluid" src="img/portfolio/${proj.id}.png" alt="">
+          <div class="item-img"><img class="img-fluid" src="img/portfolio/${proj.id}-s.png" alt=""></div>
         </a>
         <div class="portfolio-caption">
           <h4>${proj.name}</h4>
