@@ -1,23 +1,41 @@
 .exit {
-    position: absolute;
-    top: 20px;
-    right: 10px;
-    cursor: pointer;
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  cursor: pointer;
 }
 
 header {
-    margin-top: 80px;
+  margin-top: 80px;
 }
- 
+
 button {
-    color: #30c56e!important;
-    border-color: #30c56e!important;
-    cursor: pointer;
+  color: #30c56e !important;
+  border-color: #30c56e !important;
+  cursor: pointer;
 }
 button:hover {
-    background-color: #30c56e!important;
-    color: #ffffff!important;
+  background-color: #30c56e !important;
+  color: #ffffff !important;
 }
 .selected-txt {
-    color: #30c56e;
+  color: #30c56e;
 }
+
+#portfolio {
+  background-image: url(../img/me-bg.png);
+  background-position: top right;
+  background-repeat: no-repeat;
+  background-size: 250px;
+}
+#services {
+  background-image: url(../img/bg-green.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+#portfolio {
+    background-image: url(../img/bg-newv2.PNG);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
