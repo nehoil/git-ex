@@ -179,7 +179,7 @@ body {
     #mainNav.navbar-shrink {
         padding-top: 0;
         padding-bottom: 0;
-        background-color: #30c56e;
+        background-color: white;
     }
     #mainNav.navbar-shrink .navbar-brand {
         font-size: 1.25em;

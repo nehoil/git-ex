@@ -63,11 +63,11 @@ function renderModal(projId) {
                   <li>Date: N/A </li>
                   <li>labels: ${proj.labels}</li>
                 </ul>
-                <button class="btn btn-primary" data-dismiss="modal" type="button">
+                <button class="btn btn-outline-primary" data-dismiss="modal" type="button">
                   <i class="fa fa-times"></i>
                   Close Project</button>
                   <a href="/projs/${proj.id}/">
-                <button class="btn btn-primary" type="button">Check It Out!
+                <button class="btn btn-outline-primary" type="button">Check It Out!
 </button><a>`
     var elModal = $('.modal-body');
     elModal.html(strHtmls)
