@@ -1,0 +1,47 @@
+body {
+    background-color: darkcyan;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+h1.title {
+    text-align: center;
+    color: darksalmon;
+}
+
+.road {
+    border: 3px solid black;
+    padding: 10px;
+}
+
+.car {
+    height: 100px;
+    width: 150px;
+    margin: 10px;
+    background-color: red;
+}
+
+.car1 {
+    background-color: rgb(255, 73, 73);
+}
+
+.car2 {
+    background-color: rgb(155, 250, 111);
+}
+
+.car3 {
+    background-color: rgb(111, 206, 250);
+}
+
+
+
+
+.my-btn {
+    background-color: darkcyan;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.my-btn:hover {
+    background-color: rgb(206, 255, 177);
+    cursor: pointer;
+}

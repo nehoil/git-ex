@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret Content - Home</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body onload="onInit()">
+    <div class="login-container">
+
+        <h1>Sign In!</h1>
+        <h3>Username:</h3>
+        <input class="username" type="text" placeholder="Enter Username">
+        <h3>Password:</h3>
+        <input class="password" type="text" placeholder="Enter Password">
+        <div class="login-btn">
+            <button class="btn" onclick="onLogin()">Login</button>
+        </div>
+    </div>
+    <div class="logged-header hide">
+        <span class="admin-link hide"><a href="admin.html">Admin</a></span>
+        <span onclick="onLogout('index')">Logout</span>
+        <div class="username-container"></div>
+    </div>
+    <div class="secret-content hide">
+        <div class="login-right-msg">
+            <h3>Login Succeded!</h3>
+        </div>
+        <h3>Secret Content:</h3>
+        <img src="/img/secret.gif" alt="" srcset="">
+    </div>
+
+    <footer>
+        cofferights 2020
+    </footer>
+
+    <script src="js/services/util-service.js"></script>
+    <script src="js/services/storage-service.js"></script>
+    <script src="js/services/todo-service.js"></script>
+    <script src="js/todo-controller.js"></script>
+</body>
+
+</html>

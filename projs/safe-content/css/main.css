@@ -1,0 +1,75 @@
+body {
+  background-color: lightblue;
+  font-size: 1.5em;
+  font-family: "Lato", sans-serif;
+}
+
+h1 {
+  font-size: 30px;
+}
+.login-container {
+  text-align: center;
+}
+
+.td {
+    margin: 1px;
+}
+
+.db-table {
+    text-align: center;
+    background-color: aliceblue;
+    margin: auto;
+}
+
+.logged-header span{
+ cursor: pointer;
+}
+
+.username-container {
+    text-align: center;
+}
+
+.secret-content {
+  text-align: center;
+  transition: 0.5s;
+}
+
+.hide {
+  display: none;
+}
+
+input {
+  width: 150px;
+  height: 20px;
+}
+
+.btn {
+  border-width: 0;
+  cursor: pointer;
+  border-radius: 3px;
+  margin-top: 5px;
+  padding: 10px 60px;
+}
+
+.btn:hover {
+  background-color: rgba(113, 209, 247, 0.418);
+  transition: 0.5s;
+}
+
+h3 {
+  font-size: 20px;
+  padding: 0;
+}
+
+input {
+  padding: 0px;
+  margin: 0px;
+}
+
+footer {
+  text-align: center;
+  background-color: rgba(0, 0, 139, 0.205);
+  color: white;
+  padding: 20px;
+  margin-top: 80px;
+}

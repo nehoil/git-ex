@@ -1,0 +1,56 @@
+body {
+    background-image: url('https://i.ibb.co/kHRy6cV/sky.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  
+.sky{
+    padding: 340px;
+}
+
+.balloon{
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+}
+
+.balloon1{
+    margin-left: 150px;
+    transition: bottom 2s linear;
+    filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
+}
+
+.balloon2{
+    margin-left: 270px;
+    filter: invert(28%) sepia(17%) saturate(1207%) hue-rotate(130deg) brightness(95%) contrast(80%);
+    transition: bottom 2s linear;
+}
+.balloon3{
+    margin-left: 370px;
+    transition: bottom 2s linear;
+    filter: invert(148%) sepia(13%) saturate(5207%) hue-rotate(130deg) brightness(95%) contrast(80%);
+}
+.balloon4{
+    margin-left: 470px;
+    transition: bottom 2s linear;
+}
+.balloon5{
+    margin-left: 570px;
+    transition: bottom 2s linear;
+}
+.balloon6{
+    margin-left: 670px;
+    transition: bottom 2s linear;
+}
+.balloon7{
+    margin-left: 770px;
+    transition: bottom 2s linear;
+}
+.hidden{
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s 2s, opacity 2s linear;
+}

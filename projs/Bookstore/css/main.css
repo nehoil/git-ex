@@ -1,0 +1,88 @@
+body {
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    margin:0;
+}
+
+.hide {
+    display: none;
+}
+
+.book-details-headline {
+    padding: 5px;
+    font-size: 15px;
+    margin: 10px;
+}
+
+.book-img {
+    padding: 5px;
+    position: relative;
+}
+
+.book-details-container img {
+    width: 100px; 
+}
+.book-details-container {
+    position: absolute;
+    height: 300px;
+    width: 600px;
+    overflow: scroll;
+    background-color: rgba(201, 108, 92, 0.411);
+}
+
+.book-name {
+    width: 100px;
+}
+.book-price {
+    width: 40px;
+}
+
+button {
+    border: none;
+    border-radius: 3px;
+    padding: 5px;
+}
+
+.add-book {
+    text-align: center;
+    /* padding: 20px; */
+    margin: auto;
+    cursor: pointer;
+    color: rgb(4, 43, 43);
+}
+
+table {
+    border: 0.5px solid rgb(173, 173, 173);
+    margin: auto;
+    background-color: rgba(32, 187, 187, 0.336);
+    margin-bottom: 30px;
+}
+
+thead {
+    background: rgb(255, 253, 253);
+}
+
+td {
+    padding: 5px;
+}
+
+h1{
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: rgba(133, 133, 250, 0.123);
+
+    color: rgb(0, 0, 0);
+    padding: 20px;
+}
+
+.input_div {
+    font-size: 5px;
+}
+
+#count {
+    width: 15px;
+    text-align: center;
+}

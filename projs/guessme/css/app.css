@@ -1,0 +1,88 @@
+body {
+  display: flex;
+  margin: 0;
+  min-height: 100vh;
+  flex-direction: column;
+  background-image: url("../img/bg.jpg");
+  font-family: "Rubik", sans-serif;
+  color: white;
+}
+
+img {
+  width: 120px;
+  z-index: -1;
+}
+
+h2 {
+  color: rgb(255, 255, 255);
+}
+
+
+
+.quest {
+  position: absolute;
+  margin-top: 50px;
+  background-image: linear-gradient(210deg, #00b0db 0%, #1a448b 100%);
+  border-radius: 1px;
+  border-top-right-radius: 250px;
+  border-bottom-left-radius: 250px;
+  overflow: hidden;
+  box-shadow: inset 0px 3px 0px 0px rgba(255, 255, 255, 0.21);
+  padding-top: 100px;
+  max-width: 500px;
+  max-height: 250px;
+  min-height: 250px;
+  min-width: 500px;
+}
+
+.btn-yes {
+  background-image: linear-gradient(210deg, #07db00 0%, #278b1a 100%);
+}
+
+.btn-no {
+  background-image: linear-gradient(210deg, #db0000 0%, #8b1a1a 100%);
+}
+
+header {
+  text-align: center;
+  color: #fcf064;
+  font-size: 3em;
+  height: 400px;
+}
+
+footer {
+  text-align: center;
+  color: rgb(229, 246, 252);
+}
+
+main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+.ending-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ending-form input {
+  margin: 10px;
+  font-size: 1em;
+}
+.ending-form label {
+  font-weight: bold;
+}
+.ending-form input,
+label {
+  height: 40px;
+  width: 300px;
+}

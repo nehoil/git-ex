@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="css/about.css">
+</head>
+
+<body onload="onInit()">
+    <!-- This is a NAMED ANCHOR -->
+    <a name="top"></a>
+    
+    <h1>About Us</h1>
+    <nav>
+       <a href="#my-footer">Footer</a> |
+       <a href="#pre-demo">Pre Demo</a> |
+       <a href="#vision">Vision</a> 
+    </nav>
+
+    <a name="pre-demo"></a>
+    <section class="pre-demo">
+        <p>
+            SHalom ahlan
+            ma kore ma
+        </p>
+        <pre id="myPre">
+            if (isBaba) {
+                goThink()
+            }
+        </pre>
+        <textarea cols="30" rows="10" onchange="myPre.innerText=this.value"></textarea>
+    </section>
+    
+    <a name="vision"></a>
+    <section class="demo">
+        <h2>Vision</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur illum reprehenderit in impedit! Fugit impedit vero earum, reiciendis numquam quas aliquid delectus dignissimos, quo unde asperiores id sit repudiandae molestiae?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores natus saepe blanditiis provident eaque omnis, atque eligendi numquam excepturi corporis a mollitia tempore laborum, rem quaerat dolorem earum voluptas assumenda.
+        </p>
+        <button onclick="openPopupWindow()">Open Our Great Popup</button>
+    </section>
+
+    <section class="demo">
+        <h2>Our Team</h2>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur illum reprehenderit in impedit! Fugit impedit vero earum, reiciendis numquam quas aliquid delectus dignissimos, quo unde asperiores id sit repudiandae molestiae?
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores natus saepe blanditiis provident eaque omnis, atque eligendi numquam excepturi corporis a mollitia tempore laborum, rem quaerat dolorem earum voluptas assumenda.
+        </p>
+    </section>
+
+
+    <!-- This is a NAMED ANCHOR -->
+    <a name="my-footer"></a>
+    <footer>
+        <a href="http://www.gmail.com/" target="_blank">
+            Open Gmail (opens a new tab)
+         </a> |
+         <nav>
+            <a href="#top">Top</a> |
+            <a href="#pre-demo">Pre Demo</a> |
+            <a href="#vision">Vision</a> 
+         </nav>         
+         <button onclick="window.history.go(-1)">Go Back</button>
+
+
+    </footer>
+
+    <script src="js/about.js"></script>
+</body>
+
+</html>

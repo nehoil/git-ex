@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body> 
+
+    <h1>This is an about page</h1>
+    <div>
+        <a href="index.html">Home page</a>
+        <a href="race.html">Race!</a>
+    </div>
+    <hr/>
+    <button onclick="doIt(event, this)" class="my-btn">Do it!</button>
+    <hr/>
+    <div class="box" id="my-box">
+        <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, unde facere dolore voluptatibus quis quos nulla, omnis repellat, vero sunt perspiciatis porro dignissimos ratione nobis accusantium maxime dolores minus cumque.</h4>
+        <p>My name is..</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, necessitatibus. Sequi iste quod dolor natus voluptatem similique ab suscipit. Quod dolorum consectetur, culpa sed commodi eaque consequuntur fugiat perspiciatis adipisci.</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, necessitatibus. Sequi iste quod dolor natus voluptatem similique ab suscipit. Quod dolorum consectetur, culpa sed commodi eaque consequuntur fugiat perspiciatis adipisci.</p>
+    </div>
+
+    <script>
+        console.log('DOM:');
+        console.dir(document);
+
+        function doIt(ev, elBtn) {
+            console.log('doing it!!', ev, elBtn);
+            elBtn.innerText = 'doing it..';
+
+            var elBox = document.querySelector('.box');
+            elBox.style.color = 'white';
+
+            // elBox.innerText = 'This is some new content by Puki Ben David'
+            elBox.innerHTML = '<h3>This is some new content by Puki Ben David</h3>'
+
+            var elLink = document.querySelector('a');
+            // elLink.style.display = 'none';
+            // if (elLink.classList.contains('hide')) {
+            //     elLink.classList.remove('hide');
+            // } else {
+            //     elLink.classList.add('hide');
+            // }
+            elLink.classList.toggle('hide');
+
+            // var elBox = document.querySelector('#my-box');
+            // var elBox = document.getElementById('my-box');
+            // console.log(elBox);
+
+            // var elParagraphs = document.querySelectorAll('p');
+            // console.log(elParagraphs);
+
+        }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,16 @@
+section {
+    background-color: lightsteelblue;
+    padding: 20px;
+    margin: 20px;
+}
+
+footer {
+    /* background-color: rgb(255, 0, 0); */
+    /* background-color: #ff0000  */
+    color: whitesmoke;
+    padding: 20px;
+}
+
+footer a {
+    color: whitesmoke;
+}

@@ -1,0 +1,83 @@
+/* Header Area */
+
+.my-header {
+    background-color: lightgoldenrodyellow;
+    text-align: center;
+    border-bottom: 10px solid #e8447a;
+    margin-bottom: 10px;
+}
+
+.my-header img {
+    width: 250px;
+}
+
+.my-header img:hover {
+    cursor: pointer;
+}
+
+.navbar {
+    background-color: antiquewhite;
+    padding: 15px;
+}
+
+.navbar a {
+    color: darkorange;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: darkmagenta;
+    text-decoration: overline;
+}
+
+.text{
+    color:red;
+}
+
+/* CSS Examples */
+
+.hide {
+    display: none;
+}
+.show {
+    display:block;
+}
+
+.nice-link {
+    color: darkgreen;
+    font-family: tahoma;
+    text-decoration: none;
+}
+
+.nice-link:hover {
+    text-decoration: underline;
+    color: sandybrown;
+}
+
+p {
+    color: rebeccapurple;
+    font-family: arial;
+}
+
+.quest {
+    font-family: tahoma;
+}
+
+.quest span {
+    color: red;
+}
+
+.header {
+    border: 1px solid salmon;
+}
+
+.car {
+    width: 250px;
+    border: 12px solid black;
+    padding: 15px;
+    margin: 50px;
+}
+
+.msg{
+    border: 1px solid brown;
+}

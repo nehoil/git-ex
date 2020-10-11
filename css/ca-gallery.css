@@ -84,7 +84,7 @@ body {
 .offcanvas-aside {
     position: fixed;
     height: 100%;
-    background: red;
+    background: rgb(235, 225, 225);
     width: 80vw;
     right: -80vw;
     z-index: 10;
@@ -247,6 +247,17 @@ header.masthead .intro-text .intro-heading {
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
+}
+
+.portfolio-item img {
+    max-height: 300px;
+    min-height: 300px;
+    object-fit: contain;
+}
+.modal-body img {
+    max-height: 300px;
+    min-height: 300px;
+    object-fit: contain;
 }
 #portfolio .portfolio-item .portfolio-link {
     position: relative;

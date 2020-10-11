@@ -1,0 +1,30 @@
+.road{
+    background-color: black;
+    padding: 20px;
+}
+
+.car{
+    margin:0;
+    margin-top: 15px;
+    width:50px;
+    height:50px;
+    border:1px solid white;
+}
+
+.car:hover{
+    cursor: pointer;
+}
+
+.car1{
+    background-color: cadetblue;
+}
+.car2{
+    background-color: darkviolet;
+}
+.car3{
+    background-color: forestgreen;
+}
+
+.race-end{
+    display: none;
+}

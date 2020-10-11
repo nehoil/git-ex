@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Touch Nums</title>
+</head>
+
+<body onload="init()">
+    <h1>Touch Nums</h1>
+    <div class="counter">
+    </div>
+    <div class="winning-message">
+    </div>
+    <div class="curr-num"></div>
+    <div id="level-choice">
+        Level:
+        <input onchange="chooseLevel()" type="radio" id="easy" name="choice" value="easy" checked="checked"> Easy (15)
+        <input onchange="chooseLevel()" type="radio" id="hard" name="choice" value="hard"> Hard (25)
+        <input onchange="chooseLevel()" type="radio" id="extreme" name="choice" value="extreme"> Extreme (36)
+    </div>
+    <!-- <button onclick="toggleGame(this)">Stop Game!</button> -->
+    <table border="1" cellpadding="0" cellspacing="0" cellpadding="0">
+        <tbody class="board">
+            <!-- <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr> -->
+
+        </tbody>
+    </table>
+    <script src="js/util.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

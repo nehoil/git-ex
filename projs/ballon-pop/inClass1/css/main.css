@@ -1,0 +1,36 @@
+body {
+    background-color: lightblue;
+}
+
+a {
+    border: 1px solid black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(255, 111, 111);
+    background-color: rgba(255, 248, 220, 0.5);
+}
+
+.box {
+    background-color: crimson;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    /* margin: 0 auto; */
+    margin: 10px;
+    padding: 10px;
+}
+
+.my-btn {
+    background-color: darkcyan;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.my-btn:hover {
+    background-color: rgb(206, 255, 177);
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}

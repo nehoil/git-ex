@@ -1,0 +1,298 @@
+body {
+  background-color: #f0f0f0;
+  font-family: "Lato", sans-serif;
+  transition: all 0.5s;
+  background-image: url("/img/bombbg.png");
+}
+
+
+.scores {
+  text-align: center;
+  margin-top: 50px;
+  height: 100px;
+  /* background-color: #cccccc; */
+  background-position: center; /* Center the image */
+  background-size: auto; /* Resize the background image to cover the entire container */
+  background-repeat: no-repeat;
+  background-size: 100px;
+}
+
+.counter {
+  height: 10px;
+  transition: all 0.2s;
+  margin-right: 10px;
+}
+
+.btns {
+  margin-top: 30px;
+  height: 50px;
+  transition: all 0.2s;
+}
+
+.level-choice {
+  margin-top: 30px;
+}
+
+.smiley {
+  display: inline;
+  background-color: rgb(247, 236, 222);
+  padding: 8px;
+  border: solid;
+  border-width: 0.5px;
+  border-color: rgb(146, 128, 128);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.smiley:hover {
+  background-color: rgb(248, 247, 190);
+}
+
+.hint-count {
+  font-size: 13px;
+  color: rgb(123, 133, 141);
+  transition: all 0.2s;
+}
+
+.sclick-count {
+  font-size: 13px;
+  color: rgb(123, 133, 141);
+  transition: all 0.2s;
+}
+
+.footer {
+  margin-top: 50px;
+  text-align: center;
+  color: #666;
+  font-size: 11px;
+  font-weight: 300;
+}
+.game-container {
+  background-color: #fff;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+  min-height: 100px;
+  /* max-width: 600px; */
+  width: max-content;
+  position: relative;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: white;
+  transition: all 0.2s linear 0.5s;
+}
+
+.lives-count {
+  width: 100%;
+  margin: auto;
+  padding-top: 20px;
+  text-align: center;
+  left: 0px;
+}
+
+/* .board-container {
+  background-color: #fff;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+  min-height: 100px;
+  width: max-content;
+  position: relative;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: white;
+} */
+
+.hint {
+  padding-left: 5px;
+  display: inline;
+  padding-top: 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+button {
+  margin: 2px;
+  width: 100px;
+  background-color: white;
+  border-width: 0.1px;
+  border-radius: 4px;
+  padding: 4px;
+}
+
+.action-btns {
+  width: 170px;
+}
+
+.bomb-cursor {
+  cursor: url("/img/bomb.png"), auto;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: rgb(148, 182, 247);
+}
+
+.self-position {
+ text-align: center;
+ margin: auto;
+}
+
+.prevent-click {
+  pointer-events: none 
+}
+
+.unclickable {
+  filter: grayscale(100%);
+}
+
+.brighter {
+  filter: brightness(120%);
+}
+
+.sclick {
+  padding-right: 10px;
+  display: inline;
+  padding-top: 10px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.hint:hover {
+    filter: brightness(110%);
+    transition: all 0.2s;
+  }
+
+.messages {
+  text-align: center;
+  transition: all 0.2s;
+}
+
+@-webkit-keyframes borderBlink {    
+  from, to {    
+      border-color: transparent    
+  }    
+  50% {    
+      border-color: rgb(56, 136, 255)    
+  }    
+}    
+@keyframes borderBlink {    
+  from, to {    
+      border-color: transparent    
+  }    
+  50% {    
+      border-color: rgb(137, 212, 255)    
+  }    
+}    
+.borderBlink{    
+  -webkit-box-shadow:inset 0px 0px 0px 3px rgb(32, 166, 207);
+  -moz-box-shadow:inset 0px 0px 0px 3px rgb(32, 166, 207);
+  box-shadow:inset 0px 0px 0px 3px rgb(32, 166, 207);
+  /* border:2px solid rgb(32, 166, 207); */
+  -webkit-animation: borderBlink 1s step-end infinite;    
+  animation: borderBlink 1s step-end infinite;    
+  transition: all 0.2s linear 1s;
+}
+
+.sclick-clicked {
+  filter: brightness(100%);
+  transition: all 0.2s;
+}
+
+.hint-clicked {
+  filter: brightness(150%);
+  transition: all 0.2s;
+}
+
+.mine-img {
+  width: 30px;
+}
+
+.random-empty-cell{
+  border-width: 3px;
+  border-color: blue;
+  animation: border-flicker 3s linear ;
+}
+
+.header {
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-top: -10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-size: 22px;
+  text-align: center;
+  color: rgb(4, 92, 255);
+  height: 100%;
+  background-color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgb(200, 200, 206);
+  transition: all 0.2s;
+}
+
+
+.shadow {
+  -webkit-box-shadow: 0 6px 4px -4px rgb(134, 124, 124);
+  -moz-box-shadow: 0 6px 4px -4px rgb(168, 146, 146);
+  box-shadow: 0 6px 4px -4px rgb(146, 128, 128);
+}
+
+table {
+  margin: auto;
+  border-width: 1px;
+  table-layout: fixed;
+  border-color: rgb(10, 10, 10);
+  transition: width 2s linear 1s; 
+}
+
+td {
+  width: 20px;
+  height: 20px;
+  max-width: 20px;
+  min-width: 20px;
+  max-height: 20px;
+  min-height: 20px;
+  overflow: hidden;
+  background-color: rgb(240, 235, 235);
+}
+
+td:hover {
+  background-color: rgb(224, 203, 203);
+}
+
+
+.unrevealed {
+  background-color: rgb(179, 168, 168);
+}
+
+.clicked-mine {
+  background-color: red;
+}
+
+.cell {
+  transition: all 0.5s;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.rotated-up {
+  transform: rotate(90deg);
+}
+.rotated-down {
+  transform: rotate(-90deg);
+}
+.rotated-right {
+  transform: rotate(180deg);
+}
+.rotated-left {
+  transform: rotate(0deg);
+}
+
+
+.hide {
+  display: none;
+}

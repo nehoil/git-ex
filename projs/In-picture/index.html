@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>In-Picture</title>
+</head>
+
+<body onload="init()">
+    <h1>In-Picture</h1>
+    <div class="curr-num"></div>
+    <div class="game-area">
+        <div class="images">
+            <div class="puki-image">
+                <img src="img/puki.png" class="imgs puki">
+            </div>
+            <div class="qts-image">
+            </div>
+        </div>
+        <div class="restart hide">
+            <div class="winning-message"></div><button onclick="resetGame()" class="restart-btn">Restart!</button><br>
+        </div>
+        <div class="answer-btns">
+            <button class="first-opt" onclick="btnClicked(this,0)" data-btns="btns">Argetina</button><br>
+            <button class="second-opt" onclick="btnClicked(this,1)" data-btns="btns">USA</button>
+        </div>
+    </div>
+    <script src="js/util.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

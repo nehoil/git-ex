@@ -1,0 +1,80 @@
+body {
+    background-color: lightblue;
+    font-size: 1.5em;
+    font-family: 'Lato', sans-serif;
+}
+
+.high {
+    background-color: rgba(247, 43, 43, 0.158);
+}
+
+.medium {
+    background-color: rgba(253, 253, 42, 0.137);
+}
+.filter-container {
+    background-color: lightskyblue;
+    padding: 1px;
+    width: 30%;
+}
+
+.filter-container select {
+    font-size: 0.5em;
+}
+
+.time-container {
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.new-todo-txt {
+    padding: 5px 10px;
+    font-size: 15px;
+}
+
+.new-todo-txt:focus {
+    background-color: lightsteelblue;
+    transition: .5s;
+}
+
+.btn {
+    font-size: 0.5em;
+    border:0;
+    padding: 10px 20px ;
+    cursor: pointer;
+    border-radius: 2px;
+    transition: .5s;
+}
+.btn:hover {
+    background-color: magenta;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+li {
+    width: 30%;
+}
+
+.done {
+    text-decoration: line-through;
+}
+
+.todo-stat {
+    background-color: lightgray;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.todo-stat span {
+    color: purple;
+    font-weight: bold;
+}
+
+footer {
+    background-color: darkblue;
+    color: white;
+    padding: 20px;
+    margin-top: 80px;
+}
